@@ -33,5 +33,5 @@ buttonResult.addEventListener('click', function () {
     let finalPrice = (totalTicket - discount);
     console.log (finalPrice);
 
-    document.getElementById('risultato').innerHTML = 'Il costo è di ' + finalPrice;
+    document.getElementById('risultato').innerHTML = 'Il costo è di ' + finalPrice + ' euro';
 });

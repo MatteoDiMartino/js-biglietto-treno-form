@@ -1,0 +1,25 @@
+/* .ms-content-input-2 {
+    position: relative;
+}
+
+.ms-in-km {
+    position: absolute;
+    top: 0px;
+    right: 0;
+    left: 40px;
+    bottom: 0;
+} */
+
+
+.ms-box-icon {
+    width: 30px;
+    height: 30px;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    border-left: 1px solid;
+    border-right: none;
+}
+
+input {
+    border: 1px solid;
+}
