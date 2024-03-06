@@ -1,10 +1,6 @@
-// Chiedo nome
-
-// Chiedo cognome
-
-// Chiedo Km
-
 // Chiedo età
+
+// Chiedo km
 
 // Definisco costo
 
