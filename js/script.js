@@ -19,4 +19,19 @@ buttonResult.addEventListener('click', function () {
 
     const totalTicket = (kmUser * costKm);
     console.log (totalTicket);
+
+    let discount
+    if (userage < 18) {
+        discount = (totalTicket * 0.20);
+    } else if (userage > 65) {
+        discount = (totalTicket * 0.40);
+    } else {
+        discount = 0;
+    }
+    console.log (discount);
+
+    let finalPrice = (totalTicket - discount);
+    console.log (finalPrice);
+
+    document.getElementById('risultato').innerHTML = 'Il costo è di ' + finalPrice;
 });
