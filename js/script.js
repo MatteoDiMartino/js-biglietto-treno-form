@@ -33,5 +33,13 @@ buttonResult.addEventListener('click', function () {
     let finalPrice = (totalTicket - discount);
     console.log (finalPrice);
 
-    document.getElementById('risultato').innerHTML = 'Il costo è di ' + finalPrice + ' euro';
+    finalPrice = document.querySelector('#risultato').innerHTML = 'Il costo è di ' + finalPrice + ' euro';
+});
+
+const buttonReset = document.querySelector('#btn-reset');
+console.log (buttonReset)
+buttonReset.addEventListener('click', function () {
+    userage = parseInt(document.querySelector('#inAge').value = '');
+    kmUser = parseInt(document.querySelector('#inKm').value = '');
+    finalPrice = document.querySelector('#risultato').innerHTML = '';
 });
